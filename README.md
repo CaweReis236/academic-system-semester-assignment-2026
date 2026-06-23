@@ -1,4 +1,4 @@
-<a id="top"></a>
+﻿<a id="top"></a>
 
 # Academic System
 
@@ -511,23 +511,23 @@ This section contains the complete user-story catalog. Every user story includes
 
 ### [Academic Features](#academic-features)
 
-- [US-2361 - Register assessments in classes](#us-2361)
-- [US-2363 - Register classes through keyboard input](#us-2363)
-- [US-2364 - Manage academic system through command line menu](#us-2364)
-- [US-2375 - Generate class assessment summary report](#us-2375)
-- [US-2376 - Generate assessment weight report](#us-2376)
+- [US-2361 - Register assessments in classes](#us-2361) ✅
+- [US-2363 - Register classes through keyboard input](#us-2363) ✅
+- [US-2364 - Manage academic system through command line menu](#us-2364) ✅
+- [US-2375 - Generate class assessment summary report](#us-2375) ✅
+- [US-2376 - Generate assessment weight report](#us-2376) ✅
 
 ### [Persistence Features](#persistence-features)
 
-- [TUS-2362 - Persist class assessments to TXT file](#tus-2362)
-- [US-2372 - Configure persistence type as administrator](#us-2372)
-- [US-2373 - Save academic data to XML file](#us-2373)
-- [US-2374 - Save academic data to JSON file](#us-2374)
-- [US-2377 - Generate persistence configuration report](#us-2377)
+- [TUS-2362 - Persist class assessments to TXT file](#tus-2362) ✅
+- [US-2372 - Configure persistence type as administrator](#us-2372) ✅
+- [US-2373 - Save academic data to XML file](#us-2373) ✅
+- [US-2374 - Save academic data to JSON file](#us-2374) ✅
+- [US-2377 - Generate persistence configuration report](#us-2377) ✅
 
 ### [Security Features](#security-features)
 
-- [US-2366 - Authenticate users and authorize actions based on roles](#us-2366)
+- [US-2366 - Authenticate users and authorize actions based on roles](#us-2366) 
 - [US-2369 - Handle authentication and authorization errors with custom exceptions](#us-2369)
 - [US-2378 - Role-based dynamic menu rendering](#us-2378)
 - [US-2379 - Logout](#us-2379)
@@ -541,7 +541,7 @@ This section contains the complete user-story catalog. Every user story includes
 
 ### [Architecture and Refactoring](#architecture-and-refactoring)
 
-- [US-000O - Start academic system](#us-0000)
+- [US-000O - Start academic system](#us-0000)  ✅
 - [TUS- - Refactor domain model using Lombok](#tus-)
 - [TUS-2370 - Refactor menu operations into AcademicSystemController](#tus-2370)
 - [TUS-2382 - Define equality for identifiable domain objects](#tus-2382)
@@ -2495,4 +2495,27 @@ This project was developed for educational purposes to support learning in:
 
 This repository is intended for academic and educational use.
 
+## 📦 Entrega Final do Trabalho (Desenvolvimento Individual)
+
+### Exercício 2: Sistema Acadêmico em Java
+A implementação completa dos requisitos de domínio, menu interativo por teclado, relatórios e o gerenciador de persistência (TXT, XML e JSON) foi realizada na pasta `/academic-system`.
+
+Para executar a versão em Java:
+```bash
+cd academic-system
+mvn clean compile
+mvn exec:java -Dexec.mainClass="org.example.Main"
+```
+
+### Exercício 3: Migração de Linguagem (Python)
+Todo o sistema acadêmico foi migrado com sucesso para o paradigma orientado a objetos em Python 3. O código unificado reflete rigorosamente as mesmas regras de negócio e está localizado na pasta `/academic-system-python`.
+
+Para executar a versão em Python:
+```bash
+python3 academic-system-python/academic_system.py
+```
+
+
 [↑ Back to top](#top)
+
+
